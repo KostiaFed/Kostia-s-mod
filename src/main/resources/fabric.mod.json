@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "minecraftchmirs",
 	"version": "${version}",
 	"name": "Kostia's mod",
 	"description": "???",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/minecraftchmirs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"minecraftchmirs.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "minecraftchmirs.client.mixins.json",
 			"environment": "client"
 		}
 	],

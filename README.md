@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Kostia's mod (Fabric)
 
 ## Setup
 
